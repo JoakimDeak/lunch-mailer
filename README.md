@@ -6,7 +6,7 @@ automates the arduous task of clicking a bookmark to see todays lunch
 - create `.env` file with `SG_API_KEY`, `SG_SENDER`, and `SG_RECIPIENT`
 Then running the script will send an email to `SG_RECIPIENT` from `SG_SENDER` containing the lunch of the day from Lilla Bommen Konferenscenter
 
-## how to automate with windows Task Scheduler
+## how to automate with Windows Task Scheduler
 - create `.bat` file with
 ```
 node main.js
