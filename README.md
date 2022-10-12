@@ -4,7 +4,7 @@ automates the arduous task of clicking a bookmark to see todays lunch
 ## setup
 - sign up for send grid and get api key
 - create `.env` file with `SG_API_KEY`, `SG_SENDER`, and `SG_RECIPIENT`
-Then running node main.js will send an email to `SG_RECIPIENT` from `SG_SENDER` containing the lunch of the day from Lilla Bommen Konferenscenter
+Then running the script will send an email to `SG_RECIPIENT` from `SG_SENDER` containing the lunch of the day from Lilla Bommen Konferenscenter
 
 ## how to automate with windows Task Scheduler
 - create `.bat` file with
