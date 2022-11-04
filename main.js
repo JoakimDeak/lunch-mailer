@@ -22,7 +22,7 @@ const getTodaysMenu = async () => {
       const dailyMenus = document.getElementsByTagName('h2');
       let todaysMenu;
       for (let i = 0; i < dailyMenus.length; i++) {
-        if (dailyMenus[i].innerHTML == today) {
+        if (dailyMenus[i].innerHTML.trim() == today) {
           todaysMenu = dailyMenus[i].parentNode.parentNode;
           break;
         }
